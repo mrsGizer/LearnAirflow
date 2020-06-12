@@ -16,7 +16,7 @@ default_args = {
 dag = DAG(
     'get_covid_data_russai',
     catchup=False,
-    schedule_interval='0 14 * * *',
+    schedule_interval='0 12 * * *',
     default_args=default_args
 )
 
